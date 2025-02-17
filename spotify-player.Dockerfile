@@ -8,4 +8,4 @@ WORKDIR spotifyd
 
 RUN cargo build --release
 
-ENTRYPOINT ./target/release/spotifyd
+ENTRYPOINT ["./target/release/spotifyd"]
