@@ -1,6 +1,6 @@
 FROM rust:1.84-bullseye
 
-RUN apt update && apt install -y librasound2-dev libssl-dev pkg-config
+RUN apt update && apt install -y libasound2-dev libssl-dev pkg-config
 
 RUN git clone https://github.com/Spotifyd/spotifyd.git
 
